@@ -9,12 +9,7 @@
     width: 90%;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
+body{
+   background-color: black;
 }
 
-header>.container>.row>nav>ul>li>a{
-    list-style-type: none;
-    text-decoration: none;
-}
