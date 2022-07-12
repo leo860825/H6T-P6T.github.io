@@ -40,3 +40,18 @@ header ul {
 header img {
   margin-top: 10px;
 }
+
+@media (max-width: 767px) {
+  .icon-menu {
+    width: 30%;
+    display: block;
+    text-align: center;
+    background-color: #832d2d;
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .icon-menu {
+    display: none;
+  }
+}

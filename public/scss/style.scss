@@ -42,12 +42,22 @@ header img{
     margin-top: 10px;
 }
 
+// 螢幕寬度大於767px//
 @media (max-width: 767px){
 .icon-menu{
-    
+    width: 30%;
+    display: block;
+    text-align: center;
+    background-color: rgb(131, 45, 45);
+    font-size: 20px;
+    }
 }
 
+// 螢幕寬度大於768px//
+@media(min-width:768px){
+    .icon-menu{
+        display: none;
+    }
 }
-    
 
 // header end//
