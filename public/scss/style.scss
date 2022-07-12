@@ -3,13 +3,44 @@
     padding: 0;
 }
 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container{
     margin: auto;
     max-width: 1140px;
     width: 90%;
 }
 
-body{
+//header start//
+header{
    background-color: black;
+   height: 80px;
 }
 
+header a{
+    color: white;
+    line-height: 80px;
+    text-decoration: none;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+header .row{
+justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+}
+
+header img{
+    margin-top: 10px;
+}
+
+
+// header end//
