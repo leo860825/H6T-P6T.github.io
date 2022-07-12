@@ -41,6 +41,16 @@ header ul{
 header img{
     margin-top: 10px;
 }
+// header end//
+
+
+
+// main strt//
+
+
+//main end//
+
+
 
 // 螢幕寬度大於767px//
 @media (max-width: 767px){
@@ -51,6 +61,11 @@ header img{
     background-color: rgb(131, 45, 45);
     font-size: 20px;
     }
+
+    header{
+        position: relative;
+    }
+  
 }
 
 // 螢幕寬度大於768px//
@@ -59,5 +74,3 @@ header img{
         display: none;
     }
 }
-
-// header end//

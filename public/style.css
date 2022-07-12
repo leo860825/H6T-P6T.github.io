@@ -49,6 +49,10 @@ header img {
     background-color: #832d2d;
     font-size: 20px;
   }
+
+  header {
+    position: relative;
+  }
 }
 @media (min-width: 768px) {
   .icon-menu {
