@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -31,18 +40,17 @@ header .row {
   justify-content: space-between;
 }
 
-header ul {
-  display: flex;
-  list-style-type: none;
-  gap: 60px;
-}
-
 header img {
   margin-top: 10px;
 }
 
 @media (max-width: 767px) {
+  #member-logo {
+    display: none;
+  }
+
   .icon-menu {
+    margin-left: 10%;
     width: 30%;
     display: block;
     text-align: center;
@@ -53,9 +61,52 @@ header img {
   header {
     position: relative;
   }
+
+  header > .container nav {
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 80px;
+    background-color: black;
+  }
+
+  nav {
+    left: 0px;
+    left: 100vw;
+    transition: all 0.3s;
+  }
+
+  nav.active {
+    left: 0px;
+  }
+
+  .submenu {
+    display: none;
+    background-color: #0f4680;
+  }
+
+  .submenu > li {
+    line-height: 60px;
+    border-bottom: 1px solid white;
+  }
+
+  header > .cintainer > .row nav > ul > li:hover > .submenu {
+    display: block;
+  }
+
+  header > .container nav > ul > li, .submenu {
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
 }
 @media (min-width: 768px) {
   .icon-menu {
     display: none;
+  }
+
+  header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
   }
 }

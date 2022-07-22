@@ -4,23 +4,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>H6T P6T 火鍋</title>
   <link rel="stylesheet" href="public/style.css" />
+
 </head>
 <!-- header start -->
 <header>
   <div class="container">
     <div class="row">
       <a href=""><img src="images/final logo.png" alt="" width="200px" /></a>
-      <a class="icon-menu" href="">menu</a>
-        <nav>
-          <ul>
-            <li><a href="">首頁</a></li>
-            <li><a href="">關於我們</a></li>
-            <li><a href="">最新消息</a></li>
-            <li><a href="">飽食菜單</a></li>
-            <li><a href="">常見問題</a></li>
-          </ul>
-        </nav>
-      <a href=""><img src="images/member icon.png" alt="" width="55px" /></a>
+      <a class="icon-menu" id="btn-nav-toggle" href="#">menu</a>
+      <nav id="primary-navigation">
+        <ul>
+          <li><a href="#">首頁</a></li>
+          <li><a href="#">關於我們</a></li>
+          <li><a href="#">最新消息</a></li>
+          <li><a href="#">飽食菜單</a></li>
+            <ul class="submenu">
+              <li><a href="#">雙人套餐</a></li>
+              <li><a href="#">三人套餐</a></li>
+            </ul>
+          <li><a href="#">常見問題</a></li>
+        </ul>
+      </nav>
+      <a href=""><img id="member-logo" src="images/member icon.png" alt="" width="55px" /></a>
     </div>
   </div>
 </header>
@@ -44,3 +49,7 @@
 
 </main>
 <!-- main end -->
+
+<script src="public/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
