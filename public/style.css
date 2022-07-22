@@ -54,8 +54,8 @@ header img {
     width: 30%;
     display: block;
     text-align: center;
-    background-color: #832d2d;
     font-size: 20px;
+    height: 80px;
   }
 
   header {
@@ -96,7 +96,7 @@ header img {
 
   header > .container nav > ul > li, .submenu {
     text-align: center;
-    border-bottom: 1px solid #121212;
+    border-bottom: 1px solid white;
   }
 }
 @media (min-width: 768px) {
