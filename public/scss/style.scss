@@ -94,20 +94,19 @@ header img {
         right: 0px;
     }
 
-    .submenu {
+    .submenu{
         display: none;
-        background-color: rgb(15, 70, 128);
     }
 
     .submenu>li {
         line-height: 60px;
         border-bottom: 1px solid white;
+        background-color: rgb(73, 40, 40);
     }
 
-    header>.cintainer>.row nav>ul>li:hover>.submenu{
+    header>.container nav>ul>li:hover .submenu{
         display: block;
     }
-
 
     header>.container nav>ul>li,.submenu {
         text-align: center;

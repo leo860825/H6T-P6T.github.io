@@ -80,15 +80,15 @@ header img {
 
   .submenu {
     display: none;
-    background-color: #0f4680;
   }
 
   .submenu > li {
     line-height: 60px;
     border-bottom: 1px solid white;
+    background-color: #492828;
   }
 
-  header > .cintainer > .row nav > ul > li:hover > .submenu {
+  header > .container nav > ul > li:hover .submenu {
     display: block;
   }
 
