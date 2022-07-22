@@ -88,10 +88,6 @@ header img {
     background-color: #492828;
   }
 
-  header > .container nav > ul > li:hover .submenu {
-    display: block;
-  }
-
   header > .container nav > ul > li, .submenu {
     text-align: center;
     border-bottom: 1px solid white;

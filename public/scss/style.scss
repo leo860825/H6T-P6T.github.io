@@ -96,7 +96,6 @@ header img {
     }
     //導覽列動畫 end
 
-    
     .submenu{
         display: none;
     }
@@ -105,10 +104,6 @@ header img {
         line-height: 60px;
         border-bottom: 1px solid white;
         background-color: rgb(73, 40, 40);
-    }
-
-    header>.container nav>ul>li:hover .submenu{
-        display: block;
     }
 
     header>.container nav>ul>li,.submenu {
