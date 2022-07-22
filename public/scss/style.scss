@@ -85,6 +85,7 @@ header img {
         background-color: rgb(0, 0, 0);
     }
 
+    // 導覽列動畫start
     nav {
         right: 100vw;
         transition: all 0.5s;
@@ -93,7 +94,9 @@ header img {
     nav.active {
         right: 0px;
     }
+    //導覽列動畫 end
 
+    
     .submenu{
         display: none;
     }
