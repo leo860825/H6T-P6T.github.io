@@ -56,7 +56,11 @@ header img {
 
 
 // main strt//
-
+main h2{
+    border-left: 6px solid black;
+    margin-top: 10px;
+    padding-left: 10px;
+}
 
 //main end//
 
@@ -127,6 +131,14 @@ header img {
         list-style-type: none;
         gap: 30px;
     }
+
+    header>.container>.row nav>ul>li>a:hover{
+        padding-bottom: 10px;
+        color: cadetblue;
+        border-bottom: 1px solid cadetblue;
+        transition: all 0.5s;
+    }
+   
 
     .submenu{
         display: none;
