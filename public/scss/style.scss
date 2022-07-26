@@ -58,10 +58,13 @@ header img {
 // main strt//
 main h2{
     border-left: 6px solid black;
-    margin-top: 10px;
+    margin-top: 20px;
     padding-left: 10px;
 }
 
+main>.container>.row>p{
+padding-top: 20px;
+}
 //main end//
 
 
