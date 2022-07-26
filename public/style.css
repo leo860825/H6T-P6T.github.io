@@ -23,6 +23,10 @@ a {
   width: 90%;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 header {
   background-color: black;
   height: 80px;
