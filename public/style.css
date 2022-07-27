@@ -60,7 +60,7 @@ header img {
 }
 
 main {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 main h2 {
@@ -70,7 +70,7 @@ main h2 {
 }
 
 main > .container > .row > .col-lg-6 > p {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 @media (max-width: 767px) {
