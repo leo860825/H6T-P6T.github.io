@@ -73,8 +73,13 @@ main .container .row .col-lg-6 p {
   padding-top: 40px;
 }
 
-section > h2 {
+section h2 {
   text-align: center;
+}
+
+section img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 footer {

@@ -86,8 +86,12 @@ main .container .row  .col-lg-6 p {
 //main end//
 
 // section start//
-section>h2{
+section  h2{
     text-align: center;
+}
+section img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 // section end//
@@ -237,7 +241,7 @@ footer{
         --num: calc(12 / 12);
         width: calc(100% / var(--num) - 30px);
         margin: 0px 15px 40px 15px;
-      }
+      } 
 }
 
 // 螢幕寬度大於768px//
