@@ -48,12 +48,23 @@ header img {
     margin-top: 10px;
 }
 
+
+// img照片控制
+.img-fluid{
+    width: 100%;
+}
+.img-wrap{
+    flex-wrap: wrap;
+}
+
 // header end//
 
 
 
 // main strt//
-
+main h1{
+    text-align: center;
+}
 
 //main end//
 

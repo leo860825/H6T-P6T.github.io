@@ -44,6 +44,18 @@ header img {
   margin-top: 10px;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
+.img-wrap {
+  flex-wrap: wrap;
+}
+
+main h1 {
+  text-align: center;
+}
+
 @media (max-width: 767px) {
   #member-logo {
     display: none;
