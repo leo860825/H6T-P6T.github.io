@@ -27,6 +27,14 @@ body {
   background-color: #b03e3e;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: black;
+}
+
 .img-fluid {
   width: 100%;
 }
@@ -63,6 +71,11 @@ main {
   margin-top: 70px;
 }
 
+main .col-lg-6 {
+  background-color: rgba(179, 58, 213, 0.347);
+  border-radius: 8px;
+}
+
 main > .container > .row > .col-lg-6 > h2 {
   border-left: 6px solid black;
   margin-top: 20px;
@@ -75,22 +88,44 @@ main .container .row .col-lg-6 p {
 
 section h2 {
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
-section img:hover {
-  cursor: pointer;
+.img-wrap {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.img-wrap img {
+  transition: all 0.5s;
+}
+
+.img-overlay {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img-wrap img:hover {
   transform: scale(1.1);
+}
+
+.icon-good {
+  position: absolute;
+  color: antiquewhite;
+  background-color: #4e9fac;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  top: -20px;
+  left: -20px;
 }
 
 footer {
   background-color: lightgray;
   position: relative;
   height: 150px;
-}
-
-#footerlogo {
-  position: absolute;
-  transform: translateX(50%);
 }
 
 @media (max-width: 767px) {
