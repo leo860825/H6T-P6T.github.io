@@ -117,6 +117,15 @@ section  h2{
     transition: all 0.5s;
 }
 
+section .container .row .col-lg-4 .img-wrap{
+    opacity: 65%;
+}
+
+section .container .row .col-lg-4 .img-wrap:hover{
+    opacity: 100%;
+}
+
+
 .img-overlay{
     border-radius: 8px;
     overflow: hidden;
@@ -136,6 +145,46 @@ section  h2{
     top: -20px;
     left: -20px;
 }
+
+.col-lg-3 h4 {
+    text-align: center;
+    line-height: 60px;
+    background-color: rgb(128, 128, 128);
+    transition: all .5s;
+    position: relative;
+    
+}
+
+.col-lg-3 div img{
+transition: all .5s;
+display: block;
+}
+
+.col-lg-3 div {
+    /* border: 3px solid red; */
+    position: relative;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.col-lg-3 div:hover h4{
+bottom: 0px;
+
+}
+
+.col-lg-3 h4 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 60px;
+    background-color: rgba(22, 128, 119, 0.507);
+    color: aliceblue;
+    position: absolute;
+    width: 100%;
+    bottom: -60px;
+    transition: all .5s;
+}
+
 
 // section end//
 
