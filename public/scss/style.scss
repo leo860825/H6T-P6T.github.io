@@ -102,9 +102,12 @@ main .container .row  .col-lg-6 p {
 
 // section start//
 section  h2{
+    margin-left: 45%;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
+    border-bottom: 2px solid rgb(203, 53, 123);
+    display: inline-block;
 }
 
 .img-wrap{
@@ -148,24 +151,25 @@ section .container .row .col-lg-4 .img-wrap:hover{
 
 .col-lg-3 {
     text-align: center;
-    line-height: 60px;
-    background-color: rgb(128, 128, 128);
+    height: 140px;
+    // background-color: rgb(128, 128, 128);
     transition: all .5s;
     position: relative;
+    overflow: hidden;
     
 }
 
 .col-lg-3 img{
 transition: all .5s;
 display: block;
+cursor: pointer;
 }
 
-.col-lg-3 img:hover h4{
+.col-lg-3:hover h4{
 bottom: 0px;
-
 }
 
-.col-lg-3 h4 {
+.col-lg-3 h4{
     font-size: 20px;
     text-align: center;
     line-height: 60px;
@@ -175,6 +179,7 @@ bottom: 0px;
     width: 100%;
     bottom: -60px;
     transition: all .5s;
+    cursor: pointer;
 }
 
 
@@ -244,6 +249,18 @@ footer{
 
     main img{
         margin-top: 20px;
+    }
+
+    section h2{
+        margin-top: 50px;
+    }
+
+    section h3{
+    margin-top: 10px;
+    }
+
+    section .col-lg-4{
+        margin-top: 25px;
     }
 
     footer{
