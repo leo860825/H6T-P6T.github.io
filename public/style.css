@@ -164,6 +164,10 @@ section .container .row .col-lg-4 .img-wrap:hover {
   cursor: pointer;
 }
 
+.mgt50px {
+  margin-top: 50px;
+}
+
 footer {
   background-color: lightgray;
   position: relative;
@@ -231,6 +235,10 @@ footer {
 
   section .col-lg-4 {
     margin-top: 25px;
+  }
+
+  .col-lg-3 {
+    height: 260px;
   }
 
   footer {
