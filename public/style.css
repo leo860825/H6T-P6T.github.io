@@ -185,8 +185,9 @@ footer dl {
   padding-bottom: 20px;
 }
 
-dl, dt, dd {
-  letter-spacing: 1px;
+.fz1 {
+  font-size: 1em;
+  letter-spacing: 2px;
 }
 
 @media (max-width: 767px) {
