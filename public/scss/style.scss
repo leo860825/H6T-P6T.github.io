@@ -192,7 +192,22 @@ bottom: 0px;
 footer{
     background-color: lightgray;
     position: relative;
-    height: 150px;
+}
+
+footer img{
+    margin-top: 10px;
+}
+
+footer .container{
+    text-align: center;
+}
+
+footer dl{
+    padding-bottom:30px;
+}
+
+dl,dt,dd{
+    letter-spacing: 1px;
 }
 
 // footer end //
@@ -256,7 +271,7 @@ footer{
 
     section h2{
         margin-top: 50px;
-        margin-left: 10%;
+        margin-left: 40%;
     }
 
     section h3{
