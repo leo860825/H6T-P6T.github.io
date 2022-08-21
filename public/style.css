@@ -24,7 +24,8 @@ a {
 }
 
 body {
-  background-color: #b03e3e;
+  background-color: black;
+  font-family: "Oswald", sans-serif;
 }
 
 .text-center {
@@ -32,7 +33,7 @@ body {
 }
 
 .text-primary {
-  color: black;
+  color: white;
 }
 
 .img-fluid {
@@ -72,12 +73,12 @@ main {
 }
 
 main .col-lg-6 {
-  background-color: rgba(179, 58, 213, 0.347);
+  background-color: #d9a44f;
   border-radius: 8px;
 }
 
 main > .container > .row > .col-lg-6 > h2 {
-  border-left: 6px solid black;
+  border-left: 5px solid #cc7a7a;
   margin-top: 20px;
   padding-left: 10px;
 }
@@ -91,8 +92,9 @@ section h2 {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #cb357b;
+  border-bottom: 2px solid #d9a44f;
   display: inline-block;
+  color: white;
 }
 
 .img-wrap {
@@ -169,7 +171,7 @@ section .container .row .col-lg-4 .img-wrap:hover {
 }
 
 footer {
-  background-color: lightgray;
+  background-color: #d9a44f;
   position: relative;
 }
 
@@ -348,8 +350,8 @@ footer dl {
 
   header > .container > .row nav > ul > li > a:hover {
     padding-bottom: 10px;
-    color: cadetblue;
-    border-bottom: 1px solid cadetblue;
+    color: #d9a44f;
+    border-bottom: 1px #d9a44f;
     transition: all 0.5s;
   }
 
