@@ -104,12 +104,11 @@ main .container .row  .col-lg-6 p {
 
 // section start//
 section  h2{
-    margin-left: 45%;
     text-align: center;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    padding-bottom:10px;
     border-bottom: 2px solid rgb(217, 164, 79);
-    display: inline-block;
     color: white;
 }
 
@@ -278,7 +277,6 @@ footer dl{
 
     section h2{
         margin-top: 50px;
-        margin-left: 40%;
     }
 
     section h3{
@@ -297,6 +295,7 @@ footer dl{
         margin-top: 50px;
     }
 }
+
 @media (max-width:767px) {
     .col-sm-1{
         --num: calc(12 / 1)
