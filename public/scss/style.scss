@@ -55,6 +55,8 @@ body{
 //header start//
 header {
     background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
 }
 
 header a {
@@ -214,10 +216,46 @@ footer dl{
 }
 // footer end //
 
+// 往回最上面標示 start//
+.page-top {
+    position: fixed;
+    bottom: 50px;
+    background: #99791d;
+    width: 70px;
+    height: 70px;
+    /* line-height: 40px; */
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    right: -100px;
+    transform: rotate(0deg);
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+  }
+  
+  .page-top.active {
+    right: 50px;
+    transform: rotate(360deg);
+    
+  }
+  
+  .page-top img{
+    width: 50px;
+    height: 50px;
+  }
+//   往回最上面標示 end //
 
 
 // 螢幕寬度小於767px//
 @media (max-width: 767px) {
+    header {
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        width: 100%;
+        order: -1;
+    }
     #member-logo {
         display: none;
     }
