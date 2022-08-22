@@ -1,3 +1,6 @@
+new WOW().init();
+
+
 document.getElementById('btn-nav-toggle').addEventListener('click',openNav)
 // 函式名稱
 function openNav(){
