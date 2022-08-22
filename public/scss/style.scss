@@ -57,6 +57,7 @@ header {
     background-color: rgb(0, 0, 0);
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 header a {
@@ -250,12 +251,6 @@ footer dl{
 
 // 螢幕寬度小於767px//
 @media (max-width: 767px) {
-    header {
-        background-color: rgb(0, 0, 0);
-        position: fixed;
-        width: 100%;
-    }
-    
     #member-logo {
         display: none;
     }

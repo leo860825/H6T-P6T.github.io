@@ -52,6 +52,7 @@ header {
   background-color: black;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 header a {
@@ -222,12 +223,6 @@ footer dl {
 }
 
 @media (max-width: 767px) {
-  header {
-    background-color: black;
-    position: fixed;
-    width: 100%;
-  }
-
   #member-logo {
     display: none;
   }

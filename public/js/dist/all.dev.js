@@ -19,11 +19,11 @@ function openNav() {
 
 
 var offsetTop;
-var product1Top = $('#logocenter,.h2under,#message,.loremh2').offset().top;
+var product1Top = $('#about us').offset().top;
 $(window).scroll(function () {
   offsetTop = $(window).scrollTop(); // console.log( '捲軸高', offsetTop )
-  // console.log('product1',product1Top)
-  //    if( offsetTop >=  product1Top){
+
+  console.log('product1', product1Top); //    if( offsetTop >=  product1Top){
   //         console.log('test')
   //    }
   // 捲軸高度>=900，會出現page-top的按鈕
