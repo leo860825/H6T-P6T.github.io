@@ -239,8 +239,12 @@ footer dl {
     border-bottom: 1px solid white;
   }
 
-  main img {
+  main .col-lg-6 {
     margin-top: 20px;
+  }
+
+  main p {
+    padding-bottom: 20px;
   }
 
   section h2 {
