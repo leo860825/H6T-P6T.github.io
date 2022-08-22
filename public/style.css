@@ -226,7 +226,6 @@ footer dl {
     background-color: black;
     position: fixed;
     width: 100%;
-    order: -1;
   }
 
   #member-logo {
