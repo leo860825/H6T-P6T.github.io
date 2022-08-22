@@ -195,6 +195,7 @@ footer dl {
 .fz1 {
   font-size: 1em;
   letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #c64545;
 }
 
 .page-top {
