@@ -24,7 +24,16 @@ a {
 }
 
 body {
-  background-color: #b03e3e;
+  background-color: black;
+  font-family: "Oswald", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: white;
 }
 
 .img-fluid {
@@ -41,6 +50,9 @@ body {
 
 header {
   background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 header a {
@@ -63,34 +75,155 @@ main {
   margin-top: 70px;
 }
 
+main .col-lg-6 {
+  background-color: #d9a44f;
+  border-radius: 8px;
+}
+
 main > .container > .row > .col-lg-6 > h2 {
-  border-left: 6px solid black;
+  border-left: 5px solid #cc7a7a;
   margin-top: 20px;
   padding-left: 10px;
 }
 
 main .container .row .col-lg-6 p {
-  padding-top: 40px;
+  padding-top: 20px;
+  max-width: 90%;
+  text-align: justify;
+  padding-left: 20px;
 }
 
 section h2 {
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #d9a44f;
+  color: white;
 }
 
-section img:hover {
-  cursor: pointer;
+.img-wrap {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.img-wrap img {
+  transition: all 0.5s;
+}
+
+section .container .row .col-lg-4 .img-wrap {
+  opacity: 65%;
+}
+
+section .container .row .col-lg-4 .img-wrap:hover {
+  opacity: 100%;
+}
+
+.img-overlay {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.img-wrap img:hover {
   transform: scale(1.1);
 }
 
-footer {
-  background-color: lightgray;
-  position: relative;
-  height: 150px;
+.icon-good {
+  position: absolute;
+  color: antiquewhite;
+  background-color: #4e9fac;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  top: -20px;
+  left: -20px;
 }
 
-#footerlogo {
+.col-lg-3 {
+  text-align: center;
+  height: 140px;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+
+.col-lg-3 img {
+  transition: all 0.5s;
+  display: block;
+  cursor: pointer;
+}
+
+.col-lg-3:hover h4 {
+  bottom: 0px;
+}
+
+.col-lg-3 h4 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  background-color: rgba(22, 128, 119, 0.507);
+  color: aliceblue;
   position: absolute;
-  transform: translateX(50%);
+  width: 100%;
+  bottom: -60px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.mgt50px {
+  margin-top: 50px;
+}
+
+footer {
+  background-color: #d9a44f;
+  position: relative;
+}
+
+footer img {
+  margin: 10px 0px 10px 0px;
+}
+
+footer .container {
+  text-align: center;
+}
+
+footer dl {
+  padding-bottom: 20px;
+}
+
+.fz1 {
+  font-size: 1em;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #c64545;
+}
+
+.page-top {
+  position: fixed;
+  bottom: 50px;
+  background: #99791d;
+  width: 50px;
+  height: 50px;
+  /* line-height: 40px; */
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  right: -100px;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-top.active {
+  right: 50px;
+  transform: rotate(360deg);
+}
+
+.page-top img {
+  width: 30px;
+  height: 20px;
 }
 
 @media (max-width: 767px) {
@@ -140,8 +273,28 @@ footer {
     border-bottom: 1px solid white;
   }
 
-  main img {
+  main .col-lg-6 {
     margin-top: 20px;
+  }
+
+  main p {
+    padding-bottom: 20px;
+  }
+
+  section h2 {
+    margin-top: 50px;
+  }
+
+  section h3 {
+    margin-top: 10px;
+  }
+
+  section .col-lg-4 {
+    margin-top: 25px;
+  }
+
+  .col-lg-3 {
+    height: 260px;
   }
 
   footer {
@@ -234,8 +387,8 @@ footer {
 
   header > .container > .row nav > ul > li > a:hover {
     padding-bottom: 10px;
-    color: cadetblue;
-    border-bottom: 1px solid cadetblue;
+    color: #d9a44f;
+    border-bottom: 1px #d9a44f;
     transition: all 0.5s;
   }
 

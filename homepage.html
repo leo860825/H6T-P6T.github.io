@@ -3,9 +3,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>H6T P6T 火鍋</title>
+  <link rel="stylesheet" href="WOW-master/css/libs/animate.css">
   <link rel="stylesheet" href="public/style.css" />
-
 </head>
+
 
 <!-- body start -->
 
@@ -14,7 +15,7 @@
   <header>
     <div class="container">
       <div class="row">
-        <a href=""><img src="images/final logo.png" alt="" width="200px"></a>
+        <a href="#"><img src="images/final logo.png" alt="" width="200px"></a>
         <a class="icon-menu" id="btn-nav-toggle" href="javascript:;"><img src="images/menu.png" alt="" width="50px"></a>
         <nav id="primary-navigation">
           <ul>
@@ -41,27 +42,31 @@
   <!-- main start -->
   <main>
     <div class="container">
-      <div class="row">
+      <div class="row  wow bounceInUp">
         <div class="col-lg-6">
           <h2>關於我們</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est fugiat culpa architecto voluptatem maiores,
-            accusantium nihil excepturi numquam dolorem beatae ex autem ad officiis, minus ea ab. Ipsam, minus
-            accusamus.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est </p>
+          <p>fugiat culpa architecto voluptatem maiores,accusantium nihil</p>
+          <p> excepturi numquam dolorem beatae ex autem ad officiis,minus</p>  
+          <p> ea ab. Ipsam, minus accusamus.</p>
+
         </div>
         <div class="col-lg-6">
           <img class="img-rounded img-fluid" src="images\menu1.jpg" alt="">
         </div>
       </div>
-      <div class="row">
+      <div class="row wow bounceInUp">
         <div class="col-lg-6">
           <h2>最新消息</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            In illum amet ad ea temporibus labore perspiciatis debitis assumenda
-            dicta reprehenderit, ratione repellat, quos rerum porro minima vero.
-            Architecto, assumenda autem.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est </p>
+          <p>fugiat culpa architecto voluptatem maiores,accusantium nihil</p>
+          <p> excepturi numquam dolorem beatae ex autem ad officiis,minus</p>  
+          <p> ea ab. Ipsam, minus accusamus.</p>
         </div>
         <div class="col-lg-6 order-1">
-          <img class="img-rounded img-fluid" src="images\banner5.jpg" alt="" height="334px">
+          <img class="img-rounded img-fluid" src="images/bgi2.jpg" alt="">
         </div>
       </div>
     </div>
@@ -71,14 +76,68 @@
   <!-- section start -->
   <section>
     <div class="container">
-      <h2>飽食菜單</h2>
-      <div class="row">
-        <div class="col-lg-4"><img class="img-fluid img-rounded" src="images/aboutus1.jpg" alt=""></div>
-        <div class="col-lg-4"><img class="img-fluid img-rounded" src="images/bgi1.jpg" alt=""></div>
-        <div class="col-lg-4"><img class="img-fluid img-rounded" src="images/bgi5.png" alt=""></div>
+      <h2 class="wow bounceIn">飽食菜單</h2>
+
+      <div class="row  wow swing">
+        <div class="col-lg-4 text-center">
+          <a class="img-wrap" href="#">
+            <div class="img-overlay">
+              <img class="img-fluid img-rounded" src="images/aboutus1.jpg" alt="">
+            </div>
+            <span class="icon-good">good</span>
+          </a>
+          <h3 class="text-primary" href="#">用餐環境</h3>
+        </div>
+
+        <div class="col-lg-4 text-center">
+          <a class="img-wrap" href="#">
+            <div class="img-overlay">
+              <img class="img-fluid img-rounded" src="images/bgi1.jpg" alt="">
+            </div>
+            <span class="icon-good">good</span>
+          </a>
+          <h3 class="text-primary">主題餐點</h3>
+        </div>
 
 
+        <div class="col-lg-4 text-center">
+          <a class="img-wrap" href="#">
+            <div class="img-overlay">
+              <img class="img-fluid img-rounded" src="images/bgi5.png" alt="">
+            </div>
+            <span class="icon-good">good</span>
+          </a>
+          <h3 class="text-primary" href="#">乾淨整潔</h3>
+        </div>
       </div>
+
+      <h2 class="wow bounceIn">常見問題</h2>
+      <div class="container">
+        <div class="row wow swing">
+
+          <div class="col-lg-3 mgt50px">
+            <img class="img-fluid img-rounded" src="images/menu3.webp" alt="">
+            <h4 class="img-rounded">菜單</h4>
+          </div>
+
+          <div class="col-lg-3 mgt50px">
+            <img class="img-fluid img-rounded" src="images/covid-19.jpg" alt="">
+            <h4 class="img-rounded">整潔</h4>
+          </div>
+
+          <div class="col-lg-3 mgt50px">
+            <img class="img-fluid img-rounded" src="images/restaurant.jpg" alt="">
+            <h4 class="img-rounded">環境</h4>
+          </div>
+
+          <div class="col-lg-3 mgt50px">
+            <img class="img-fluid img-rounded" src="images/banner1.jpg" alt="">
+            <h4 class="img-rounded">品質</h4>
+          </div>
+
+        </div>
+      </div>
+    </div>
     </div>
   </section>
   <!-- section end -->
@@ -86,13 +145,20 @@
   <!-- footer start -->
   <footer>
     <div class="container">
-      <img id="footerlogo" src="images/final logo.png" alt="" width="200px">
-
-
+      <a href="#">
+        <img src="images/final logo.png" alt="" width="200px">
+      </a>
+      <dl>
+        <dt class="fz1">米六股份有限公司.copyright</dt>
+        <dd class="fz1">版權所有，翻印必究，本網站僅供教學使用</dd>
+      </dl>
 
     </div>
   </footer>
   <!-- footer end -->
 </body>
 <!-- //body end -->
+<a class="page-top active" href="javascript:;"><img src="images/up-arrow.png" alt=""></a>
+
+<script src="WOW-master\dist\wow.min.js"></script>
 <script src="public/js/all.js"></script>
