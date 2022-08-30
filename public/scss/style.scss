@@ -23,10 +23,27 @@ a {
     width: 90%;
 }
 
+body{
+    background-color: rgb(176, 62, 62);
+}
+
+// img設定區 start//
+.img-fluid {
+    width: 100%;
+}
+
+.img-rounded {
+    border-radius: 8px;
+}
+
+.img-circle {
+    border-radius: 100%;
+}
+// img設定區 end//
+
 //header start//
 header {
-    background-color: black;
-    height: 80px;
+    background-color: rgb(0, 0, 0);
 }
 
 header a {
@@ -48,25 +65,50 @@ header img {
     margin-top: 10px;
 }
 
-
-// img照片控制
-.img-fluid{
-    width: 100%;
-}
-.img-wrap{
-    flex-wrap: wrap;
-}
-
 // header end//
 
 
 
 // main strt//
-main h1{
-    text-align: center;
+main{
+    margin-top: 70px;
 }
 
+main>.container>.row>.col-lg-6>h2 {
+    border-left: 6px solid black;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+main .container .row  .col-lg-6 p {
+    padding-top: 40px;
+}
 //main end//
+
+// section start//
+section  h2{
+    text-align: center;
+}
+section img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+// section end//
+
+// footer start//
+footer{
+    background-color: lightgray;
+    position: relative;
+    height: 150px;
+}
+
+#footerlogo{
+    position: absolute;
+    transform: translateX(50%);
+
+}
+// footer end //
 
 
 
@@ -77,11 +119,8 @@ main h1{
     }
 
     .icon-menu {
-        margin-left: 10%;
-        width: 30%;
-        display: block;
+        margin-left: 5%;
         text-align: center;
-        font-size: 20px;
         height: 80px;
     }
 
@@ -105,9 +144,10 @@ main h1{
     nav.active {
         right: 0px;
     }
+
     //導覽列動畫 end
 
-    .submenu{
+    .submenu {
         display: none;
     }
 
@@ -117,11 +157,91 @@ main h1{
         background-color: rgb(73, 40, 40);
     }
 
-    header>.container nav>ul>li,.submenu {
+    header>.container nav>ul>li,
+    .submenu {
         text-align: center;
         border-bottom: 1px solid rgb(255, 255, 255);
+    }  
+
+    main img{
+        margin-top: 20px;
     }
 
+    footer{
+        margin-top: 50px;
+    }
+}
+@media (max-width:767px) {
+    .col-sm-1{
+        --num: calc(12 / 1)
+        width: calc(100% /var--(num) - 30px)
+        margin:0px 15px 40px 15px
+    }
+    .col-sm-2 {
+        --num: calc(12 / 2);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-3 {
+        --num: calc(12 / 3);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-4 {
+        --num: calc(12 / 4);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-5 {
+        --num: calc(12 / 5);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-6 {
+        --num: calc(12 / 6);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-7 {
+        --num: calc(12 / 7);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-8 {
+        --num: calc(12 / 8);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-9 {
+        --num: calc(12 / 9);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-10 {
+        --num: calc(12 / 10);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+      
+      .col-sm-11 {
+        --num: calc(12 / 11);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      }
+
+      .col-sm-12{
+        --num: calc(12 / 12);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+      } 
 }
 
 // 螢幕寬度大於768px//
@@ -136,7 +256,82 @@ main h1{
         gap: 30px;
     }
 
-    .submenu{
+    header>.container>.row nav>ul>li>a:hover {
+        padding-bottom: 10px;
+        color: cadetblue;
+        border-bottom: 1px solid cadetblue;
+        transition: all 0.5s;
+    }
+
+
+    .submenu {
         display: none;
     }
+
+    .order-1{
+        order: -1;
+    }
+}
+@media (min-width:768px) {
+    .col-lg-1{
+        --num: calc(12 / 1);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-2{
+        --num: calc(12 / 2);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-3{
+        --num: calc(12 / 3);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-4{
+        --num: calc(12 / 4);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-5{
+        --num: calc(12 / 5);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-6{
+        --num: calc(12 / 6);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-7{
+        --num: calc(12 / 7);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-8{
+        --num: calc(12 / 8);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-9{
+        --num: calc(12 / 9);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-10{
+        --num: calc(12 / 10);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-11{
+        --num: calc(12 / 11);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    .col-lg-12{
+        --num: calc(12 / 12);
+        width: calc(100% / var(--num) - 30px);
+        margin: 0px 15px 40px 15px;
+    }
+    
 }
