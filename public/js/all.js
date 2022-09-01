@@ -23,7 +23,7 @@ function openNav(){
 
 // 定義捲軸高變數
 let offsetTop
-let product1Top = $('').offset().top 
+let product1Top = $('.product-section-1').offset().top 
 $(window).scroll(function(){
     offsetTop = $(window).scrollTop()
     // console.log( '捲軸高', offsetTop )

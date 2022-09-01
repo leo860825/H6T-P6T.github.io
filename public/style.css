@@ -143,7 +143,6 @@ section .container .row .col-lg-4 .img-wrap:hover {
 .col-lg-3 {
   text-align: center;
   height: 140px;
-  transition: all 0.5s;
   position: relative;
   overflow: hidden;
 }
@@ -389,7 +388,6 @@ footer dl {
     padding-bottom: 10px;
     color: #d9a44f;
     border-bottom: 1px #d9a44f;
-    transition: all 0.5s;
   }
 
   .submenu {

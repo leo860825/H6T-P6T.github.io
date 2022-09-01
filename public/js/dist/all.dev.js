@@ -20,7 +20,7 @@ function openNav() {
 
 
 var offsetTop;
-var product1Top = $('').offset().top;
+var product1Top = $('.product-section-1').offset().top;
 $(window).scroll(function () {
   offsetTop = $(window).scrollTop(); // console.log( '捲軸高', offsetTop )
   // console.log('product1',product1Top)
